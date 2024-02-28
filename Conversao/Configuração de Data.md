@@ -6,5 +6,5 @@
   
 ## Ver Também  
 - [Contas](./Contas.md)  
-- [Movimentos](./Movimento.md)  
+- [Movimentos](./Movimentos.md)  
 - [Configuração Geral](./Configura%C3%A7%C3%A3o%20Geral.md)
