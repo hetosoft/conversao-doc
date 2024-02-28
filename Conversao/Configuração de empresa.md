@@ -17,4 +17,4 @@ A ordem com que as empresas são indicadas no campos é a ordem para qual elas s
     | ---------- | ------------- |  
     | Empresa 1  | Empresa 1     |  
     | Empresa 2  | Empresa 2     |  
-    | Empresa 6  | Empresa 3     |  
+    | Empresa 3  | Empresa 6     |  
