@@ -1,5 +1,5 @@
 # Produtos  
-Aba de conversão entidades relacionadas a produtos (`PRODUTOS`). Não há configuração de produtos a serem feitas, no entanto, é provável que a conversão contenha uma [Configuração específica](./Configura%C3%A7%C3%A3o%20espec%C3%ADfica.md) para atribuir precificação, estoque e demais detalhes de produtos (Veja um exemplo em [Conversão XPert](./Convers%C3%A3o%20XPert.md))  
+Aba de conversão entidades relacionadas a produtos (`PRODUTOS`). Não há configuração de produtos a serem feitas, no entanto, é provável que a conversão contenha uma [ConfiguracaoEspecifica](ConfiguracaoEspecifica.md) para atribuir precificação, estoque e demais detalhes de produtos (Veja um exemplo em [ConversaoXPert](ConversaoXPert.md))  
 ![TabProdutos.png](./Imagens/TabProdutos.png)  
 ## Configuração de produtos códigos  
 Ao clicar no botão `Produto códigos` uma tela de configuração de códigos será exibida  
@@ -40,7 +40,7 @@ Ao clicar no botão `Produto códigos` uma tela de configuração de códigos se
     	- `Fornecedores/Pessoas`  
     - [[#`Unidades`|Unidades]]  
     - [[#`NCM`|NCM]]  
-- Obs: Na maioria das vezes é necessário configurar a precificação na aba [Configuração específica](./Configura%C3%A7%C3%A3o%20espec%C3%ADfica.md)  
+- Obs: Na maioria das vezes é necessário configurar a precificação na aba [ConfiguracaoEspecifica](ConfiguracaoEspecifica.md)  
 #### `Produtos Codigos`  
 - Tabela: `PRODUTO_CODIGOS`  
 - Dependências:  

@@ -35,5 +35,5 @@ Normalmente as conversões de pessoas automaticamente convertem endereços e con
     - Tabela: `PESSOAS`  
     - Dependências: Sem dependências  
 ## Ver também  
-- [Configuração Geral](./Configura%C3%A7%C3%A3o%20Geral.md)  
+- [ConfiguracaoGeral](ConfiguracaoGeral.md)  
 - [Produtos](./Produtos.md)

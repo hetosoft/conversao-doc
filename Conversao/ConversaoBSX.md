@@ -6,7 +6,7 @@
   
 ## Configurações iniciais  
 ### Bancos de dados  
-Além de [conectar os bancos](./Conectar%20bancos.md) origem e destino, na conversão do BSX é necessário selecionar na aba `Configuração BSX`, quais bancos de dados. Uma lista de todos os bancos SQL Server disponíveis na maquina estarão disponíveis na caixa de seleção e apenas os pertinentes a conversão devem ser selecionados  
+Além de [conectar os bancos](Conectarbancos.md) origem e destino, na conversão do BSX é necessário selecionar na aba `Configuração BSX`, quais bancos de dados. Uma lista de todos os bancos SQL Server disponíveis na maquina estarão disponíveis na caixa de seleção e apenas os pertinentes a conversão devem ser selecionados  
 ![BSXBancos.png](./Imagens/BSXBancos.png)  
   
 ### Cadastrar Consumidor Padrão  

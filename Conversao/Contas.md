@@ -1,16 +1,16 @@
 # Contas  
-Converte as entidades relacionadas a Contas Pagar/Contas Receber (`CONTAS_PR`). Na aba de conversão de contas algumas configurações são obrigatórias. Além das configurações da aba `Financeiro` a [Configuração de Data](./Configura%C3%A7%C3%A3o%20de%20Data.md) é necessária assim como algumas [configurações do SOL.NET](Contas.md#Configurações%20Obrigatórias%20-%20SOL.NET). Além disso a conversão de contas possui dependência da conversão de [Pessoas](./Pessoas.md)  
+Converte as entidades relacionadas a Contas Pagar/Contas Receber (`CONTAS_PR`). Na aba de conversão de contas algumas configurações são obrigatórias. Além das configurações da aba `Financeiro` a [ConfiguracaoDeData](ConfiguracaoDeData.md) é necessária assim como algumas [configurações do SOL.NET](Contas.md#Configurações%20Obrigatórias%20-%20SOL.NET). Além disso a conversão de contas possui dependência da conversão de [Pessoas](./Pessoas.md)  
 ![TabContas.png](./Imagens/TabContas.png)  
 >[!IMPORTANT]  
->Como as conversões de Contas/Contas Receber/Contas Pagar dizem respeito a mesma tabela no SOL.NET é importante clicar em "não" na [confirmação](./Confirma%C3%A7%C3%B5es.md) de deleção ou marcar a opção `Nenhum` ou `Conversão` na configuração de [confirmação](./Confirma%C3%A7%C3%B5es.md). O mesmo vale para conversões de diferentes [períodos do mesmo botão](./Configura%C3%A7%C3%A3o%20de%20Data.md)   
+>Como as conversões de Contas/Contas Receber/Contas Pagar dizem respeito a mesma tabela no SOL.NET é importante clicar em "não" na [confirmação](Confirmacoes.md) de deleção ou marcar a opção `Nenhum` ou `Conversão` na configuração de [confirmação](Confirmacoes.md). O mesmo vale para conversões de diferentes [períodos do mesmo botão](ConfiguracaoDeData.md)   
 ## Configurações Obrigatórias - Conversão  
   
 ### Tipo data Conversão  
 ![ConfiguracaoTipoData.png](./Imagens/ConfiguracaoTipoData.png)  
 A configuração de `Tipo Data Conversão` determina a partir de qual tipo de data a conversão deve selecionar as contas a serem convertidas. As opções são:  
-- `Emissão`: Converte contas da data de emissão [inicial até a final](./Configura%C3%A7%C3%A3o%20de%20Data.md)  
-- `Cadastro`: Converte contas da data de cadastro [inicial até a final](./Configura%C3%A7%C3%A3o%20de%20Data.md)  
-- `Vencimento`: Converte contas da data de vencimento [inicial até a final](./Configura%C3%A7%C3%A3o%20de%20Data.md)  
+- `Emissão`: Converte contas da data de emissão [inicial até a final](ConfiguracaoDeData.md)  
+- `Cadastro`: Converte contas da data de cadastro [inicial até a final](ConfiguracaoDeData.md)  
+- `Vencimento`: Converte contas da data de vencimento [inicial até a final](ConfiguracaoDeData.md)  
 Veja um exemplo a seguir:  
 - Considere que a `Data inicial` selecionada é **31/12/2023** e a `Data final` selecionada é **01/01/2024** e o seguinte conjunto de dados  
   
@@ -94,7 +94,7 @@ Seleciona o status das contas que devem ser convertidas. É necessário marcar a
     - Dependências:  
         - `Contas`  
 ## Ver também  
-- [Configuração Geral](./Configura%C3%A7%C3%A3o%20Geral.md)  
-- [Configuração de Data](./Configura%C3%A7%C3%A3o%20de%20Data.md)  
-- [confirmação](./Confirma%C3%A7%C3%B5es.md)  
+- [ConfiguracaoGeral](ConfiguracaoGeral.md)  
+- [ConfiguracaoDeData](ConfiguracaoDeData.md)  
+- [confirmação](Confirmacoes.md)  
 - [Pessoas](./Pessoas.md)

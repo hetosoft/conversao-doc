@@ -1,0 +1,18 @@
+# Configuração específica  
+Em alguns formulários de conversão são necessárias configurações específicas. Para isso existe a aba `Configuração Especifica`. Ao contrário da aba de [ConfiguracaoGeral](ConfiguracaoGeral.md) e das configurações de cada aba, a aba de `Configuração Especifica` varia de formulário para formulário. Veja nas páginas de cada formulário a documentação das configurações especificas:  
+- [ConversaoAlfaSoftware](ConversaoAlfaSoftware.md)  
+- [ConversaoBSX](ConversaoBSX.md)  
+- [ConversaoCPlus](ConversaoCPlus.md)  
+- [ConversaoDerevoGestor](ConversaoDerevoGestor.md)  
+- [ConversaoEPronto](ConversaoEPronto.md)  
+- [ConversaoEasySoftware](ConversaoEasySoftware.md)  
+- [ConversaoErgon](ConversaoErgon.md)  
+- [ConversaoGestaoFacil](ConversaoGestaoFacil.md)  
+- [ConversaoInfoLig](ConversaoInfoLig.md)  
+- [ConversaoMCN](ConversaoMCN.md)  
+- [ConversaoNaja](ConversaoNaja.md)  
+- [ConversaoPlanilhas](ConversaoPlanilhas.md)  
+- [ConversaoSaga Gestor](ConversaoSaga%20Gestor.md)  
+- [ConversaoSige](ConversaoSige.md)  
+- [ConversaoThor](ConversaoThor.md)  
+- [ConversaoXPert](ConversaoXPert.md)
