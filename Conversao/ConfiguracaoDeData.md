@@ -7,4 +7,4 @@
 ## Ver Também  
 - [Contas](./Contas.md)  
 - [Movimentos](./Movimentos.md)  
-- [ConfiguracaoGeral](ConfiguracaoGeral.md)
+- [Configuração Geral](ConfiguracaoGeral.md)

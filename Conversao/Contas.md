@@ -1,5 +1,5 @@
 # Contas  
-Converte as entidades relacionadas a Contas Pagar/Contas Receber (`CONTAS_PR`). Na aba de conversão de contas algumas configurações são obrigatórias. Além das configurações da aba `Financeiro` a [ConfiguracaoDeData](ConfiguracaoDeData.md) é necessária assim como algumas [configurações do SOL.NET](Contas.md#Configurações%20Obrigatórias%20-%20SOL.NET). Além disso a conversão de contas possui dependência da conversão de [Pessoas](./Pessoas.md)  
+Converte as entidades relacionadas a Contas Pagar/Contas Receber (`CONTAS_PR`). Na aba de conversão de contas algumas configurações são obrigatórias. Além das configurações da aba `Financeiro` a [Configuração De Data](ConfiguracaoDeData.md) é necessária assim como algumas [configurações do SOL.NET](Contas.md#Configurações%20Obrigatórias%20-%20SOL.NET). Além disso a conversão de contas possui dependência da conversão de [Pessoas](./Pessoas.md)  
 ![TabContas.png](./Imagens/TabContas.png)  
 >[!IMPORTANT]  
 >Como as conversões de Contas/Contas Receber/Contas Pagar dizem respeito a mesma tabela no SOL.NET é importante clicar em "não" na [confirmação](Confirmacoes.md) de deleção ou marcar a opção `Nenhum` ou `Conversão` na configuração de [confirmação](Confirmacoes.md). O mesmo vale para conversões de diferentes [períodos do mesmo botão](ConfiguracaoDeData.md)   
@@ -94,7 +94,7 @@ Seleciona o status das contas que devem ser convertidas. É necessário marcar a
     - Dependências:  
         - `Contas`  
 ## Ver também  
-- [ConfiguracaoGeral](ConfiguracaoGeral.md)  
-- [ConfiguracaoDeData](ConfiguracaoDeData.md)  
-- [confirmação](Confirmacoes.md)  
+- [Configuração Geral](ConfiguracaoGeral.md)  
+- [Configuração De Data](ConfiguracaoDeData.md)  
+- [Confirmação](Confirmacoes.md)  
 - [Pessoas](./Pessoas.md)

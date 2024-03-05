@@ -1,11 +1,11 @@
 # Configuração Geral  
 Aba de configuração geral do Conversão.  
 ![ConfigGeral.png](./Imagens/ConfigGeral.png)  
-É obrigatório preencher [ConfiguracaoDeEmpresa](ConfiguracaoDeEmpresa.md) origem e destino e para algumas conversões também é obrigatório preencher [ConfiguracaoDeData](ConfiguracaoDeData.md)  
+É obrigatório preencher [Configuração De Empresa](ConfiguracaoDeEmpresa.md) origem e destino e para algumas conversões também é obrigatório preencher [Configuração De Data](ConfiguracaoDeData.md)  
 ## Configurações  
-- [ConfiguracaoDeData](ConfiguracaoDeData.md)  
-- [ConfiguracaoDeEmpresa](ConfiguracaoDeEmpresa.md)  
-- [UtilizarTransacao](UtilizarTransacao.md)  
-- [RealizarCopiasaposConversao](RealizarCopiasaposConversao.md)  
-- [AdicionarSQLaoLog](AdicionarSQLaoLog.md)  
-- [Confirmacoes](Confirmacoes.md)
+- [Configuração De Data](ConfiguracaoDeData.md)  
+- [Configuração De Empresa](ConfiguracaoDeEmpresa.md)  
+- [Utilizar Transação](UtilizarTransacao.md)  
+- [Realizar Cópias após Conversão](RealizarCopiasaposConversao.md)  
+- [Adicionar SQL ao Log](AdicionarSQLaoLog.md)  
+- [Confirmações](Confirmacoes.md)
