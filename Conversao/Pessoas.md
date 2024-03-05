@@ -27,6 +27,7 @@ Na aba de configurações de pessoas está disponível a configuração `Unifica
       
 > [!IMPORTANT]  
 > `Unificar Pessoas` valida se duas pessoas são idênticas através do CPF/CNPJ e RG/Inscrição estadual. Caso essas informações não estejam devidamente cadastradas no banco de origem a unificação não ocorrerá  
+
 ## Conversão de endereços e contatos  
 Normalmente as conversões de pessoas automaticamente convertem endereços e contatos como uma sub-conversão  
   
