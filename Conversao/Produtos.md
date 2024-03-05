@@ -10,6 +10,7 @@ Ao clicar no botão `Produto códigos` uma tela de configuração de códigos se
    
  >[!IMPORTANT]  
  >É **obrigatório** selecionar ao menos um campo como código padrão e um campo como código de barra.  
+
 ## Entidades comuns  
 #### `Família`  
  - Tabela: `FAMILIA_PRODUTOS`  
@@ -17,11 +18,11 @@ Ao clicar no botão `Produto códigos` uma tela de configuração de códigos se
 #### `Grupos`  
 - Tabela: `GRUPO_PRODUTOS`  
 - Dependências  
-    - [[#`Familia`|Família]]  
+    - `Familia`
 #### `SubGrupos`  
 - Tabela: `SUB_GRUPO_PRODUTOS`  
 - Dependências:  
-    - [[#`Grupos`|Grupos]]  
+    - `Grupos`
 #### `Unidades`  
 - Sem Dependências  
 #### `NCM`  
@@ -34,12 +35,12 @@ Ao clicar no botão `Produto códigos` uma tela de configuração de códigos se
 - Tabela: `PRODUTOS`  
 - Dependências:  
     - Se Houver:  
-    	- [[#`Família`|Família]]  
-    	- [[#`Grupos`|Grupos]]  
-    	- [[#`SubGrupos`|Sub Grupos]]  
+    	- `Familia`  
+    	- `Grupos` 
+    	- `SubGrupos`  
     	- `Fornecedores/Pessoas`  
-    - [[#`Unidades`|Unidades]]  
-    - [[#`NCM`|NCM]]  
+    - `Unidades`  
+    - `NCM`
 - Obs: Na maioria das vezes é necessário configurar a precificação na aba [Configuração Específica](ConfiguracaoEspecifica.md)  
 #### `Produtos Codigos`  
 - Tabela: `PRODUTO_CODIGOS`  
