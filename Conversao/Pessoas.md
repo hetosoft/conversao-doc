@@ -11,19 +11,19 @@ Na aba de configurações de pessoas está disponível a configuração `Unifica
         SELECT DESCRICAO, TPFORNECEDOR, TPCLIENTE FROM PESSOAS WHERE DESCRICAO = 'Cliente X'  
         ```  
   
-        | DESCRICAO | TPFORNECEDOR | TPCLIENTE |     |   
-        | --------- | ------------ | --------- | --- |  
-        | Cliente X | 1            | 0         |     |  
-        | Cliente X | 0            | 1         |     |  
+        | DESCRICAO | TPFORNECEDOR | TPCLIENTE |
+        | --------- | ------------ | --------- |
+        | Cliente X | 1            | 0         |
+        | Cliente X | 0            | 1         |
 		  
     - Com Unificar Pessoas  
         ```sql  
         SELECT DESCRICAO, TPFORNECEDOR, TPCLIENTE FROM PESSOAS WHERE DESCRICAO = 'Cliente X'  
         ```  
   
-       | DESCRICAO   | TPCLIENTE | TPFORNECEDOR |     |  
-       | ----------- | --------- | ------------ | --- |  
-       |  Cliente X  |  1        | 1            |     |    
+       | DESCRICAO | TPCLIENTE | TPFORNECEDOR |
+       | --------- | --------- | ------------ |
+       | Cliente X | 1         | 1            |
       
 > [!IMPORTANT]  
 > `Unificar Pessoas` valida se duas pessoas são idênticas através do CPF/CNPJ e RG/Inscrição estadual. Caso essas informações não estejam devidamente cadastradas no banco de origem a unificação não ocorrerá  
