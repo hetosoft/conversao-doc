@@ -1,2 +1,3 @@
-# DocumentaÁ„o Hetosoft
-- [Wiki Convers„o](./Conversao/README.md)
+# Documenta√ß√£o Hetosoft
+- [Wiki Convers√£o](./Conversao/README.md)
+- TODO
