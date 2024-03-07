@@ -17,3 +17,4 @@ Em alguns formulários de conversão são necessárias configurações específi
 - [Conversão Thor](ConversaoThor.md)  
 - [Conversão XPert](ConversaoXPert.md)
 - [Conversão Ville](ConversaoVille.md)
+- [Troca CNPJ V2](TrocaCnpj.md)
