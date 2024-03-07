@@ -1,6 +1,8 @@
 # Configuração de empresa  
 Antes de iniciar uma conversão é necessário informar o "De-Para" de empresas nos campos `Id(s) Empresa(s) Origem` e `Id(s) Empresa(s) Destino`.  
-![EmpresaOrigemDestino.png](./Imagens/EmpresaOrigemDestino.png)  
+
+![EmpresaOrigemDestino.png](./Imagens/EmpresaOrigemDestino.png) 
+
 Esses campos tem duas funções:  
 1) Determinar quais empresas do banco origem devem ser convertidas  
 2) Determinar para quais Empresas no destino as empresas origem devem ser convertidas  

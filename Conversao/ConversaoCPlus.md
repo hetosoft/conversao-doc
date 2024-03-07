@@ -3,6 +3,7 @@
 - **Banco**  
     - Tipo: Postgres SQL  
     - Versão: Utilizar a mais recente  
+
 ## Configurações específicas  
 ### Precificação  
 ![CPlusPrecificacao.png](./Imagens/CPlusPrecificacao.png)  
