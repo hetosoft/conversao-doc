@@ -30,32 +30,32 @@ Foi identificado que o sistema Derevo possui versões diferentes de banco de dad
 	- ❌ = Não implementado
 #### Pessoas
 |         | Tipo 1 | Tipo 2 | Tipo 3 |
-| ------- |:------:|:------:|:------:|
-| Pessoas |   ✅   |   ✅   |   ✅   |
-| Marcas  |   ✅   |   ✅   |   ✅   | 
+| ------- | ------ | ------ | ------ |
+| Pessoas | ✅     | ✅     | ✅     | 
+| Marcas  | ✅     | ✅     | ✅     |
 #### Produtos
 |                        | Tipo 1 | Tipo 2 | Tipo 3 |
-|:---------------------- |:------:|:------:|:------:|
-| Família                |   ✅   |   ✅   |   ✅   |
-| Grupo                  |   ✅   |   ✅   |   ✅   |
-| Sub Grupo              |   ✅   |   ✅   |   ✅   |
-| Unidade                |   ✅   |   ✅   |   ✅   |
-| Tributação Federal     |   ✅   |   ✅   |   ✅   |
-| NCM                    |   ✅   |   ✅   |   ✅   |
-| Produto                |   ✅   |   ✅   |   ✅   |
-| Produtos Códigos       |   ✅   |   ✅   |   ✅   |
-| Produtos Troca         |   ✅   |   ✅   |   ⚠️   |
-| Produtos Linkados      |   ✅   |   ✅   |   ⚠️   |
-| Promoção               |   ✅   |   ✅   |   ⚠️   |
-| Prod. Situação Estoque |   ✅   |   ✅   |   ⚠️   |
+|:---------------------- | ------ | ------ | ------ |
+| Família                | ✅     | ✅     | ✅     |
+| Grupo                  | ✅     | ✅     | ✅     |
+| Sub Grupo              | ✅     | ✅     | ✅     |
+| Unidade                | ✅     | ✅     | ✅     |
+| Tributação Federal     | ✅     | ✅     | ✅     |
+| NCM                    | ✅     | ✅     | ✅     |
+| Produto                | ✅     | ✅     | ✅     |
+| Produtos Códigos       | ✅     | ✅     | ✅     |
+| Produtos Troca         | ✅     | ✅     | ⚠️     |
+| Produtos Linkados      | ✅     | ✅     | ⚠️     |
+| Promoção               | ✅     | ✅     | ⚠️     |
+| Prod. Situação Estoque | ✅     | ✅     | ⚠️     |
 
 #### Contas
 |                | Tipo 1 | Tipo 2 | Tipo 3 |
-| -------------- |:------:|:------:|:------:|
-| Portadores     |   ✅   |   ✅   |   ✅   |
-| Tipo Documento |   ✅   |   ✅   |   ✅   |
-| Plano Contas   |   ✅   |   ✅   |   ✅   |
-| Contas PR      |   ✅   |   ✅   |   ✅   |
+| -------------- | ------ | ------ | ------ |
+| Portadores     | ✅     | ✅     | ✅     |
+| Tipo Documento | ✅     | ✅     | ✅     |
+| Plano Contas   | ✅     | ✅     | ✅     |
+| Contas PR      | ✅     | ✅     | ✅     |
 
 #### Movimentos
 
@@ -66,5 +66,5 @@ Foi identificado que o sistema Derevo possui versões diferentes de banco de dad
 | Movimento de Saída     | ✅     | ✅     | ✅     |
 | Venda Pedido           | ❌     | ❌     | ✅     |
 | Cupom                  | ✅     | ⚠️     | ✅     |
-| Refencia NFE           | ✅     | ✅     | ✅     |
-| Historico de Movimento | ✅     | ✅     | ✅     | 
+| Referência NFE         | ✅     | ✅     | ✅     |
+| Histórico de Movimento | ✅     | ✅     | ✅     |
