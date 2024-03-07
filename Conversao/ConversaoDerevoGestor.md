@@ -28,12 +28,14 @@ Foi identificado que o sistema Derevo possui versões diferentes de banco de dad
 	- ✅ = Ok
 	- ⚠️ = Incerto
 	- ❌ = Não implementado
+
 #### Pessoas
 
 |         | Tipo 1 | Tipo 2 | Tipo 3 |
 | ------- | ------ | ------ | ------ |
 | Pessoas | ✅     | ✅     | ✅     | 
 | Marcas  | ✅     | ✅     | ✅     |
+
 #### Produtos
 
 |                        | Tipo 1 | Tipo 2 | Tipo 3 |
