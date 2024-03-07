@@ -6,6 +6,7 @@ Esses campos tem duas funções:
 2) Determinar para quais Empresas no destino as empresas origem devem ser convertidas  
 >[!IMPORTANT]  
 >Indique os Ids de empresa separados com ',' em caso de multi-empresas  
+
 ## Gerando o "De-Para"  
 A ordem com que as empresas são indicadas no campos é a ordem para qual elas serão convertidas  
 - Exemplo:  
