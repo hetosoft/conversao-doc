@@ -42,6 +42,7 @@ O formulário `Troca CNPJ V2` é a atualização do formulário `Troca CNPJ` par
 | Contas Receber | ❌     |      |
 
 #### Movimentações
+
 | Conversão            | Status | Obs. |
 | -------------------- | ------ | ---- |
 | Tipo Movimento       | ❌     |      |
