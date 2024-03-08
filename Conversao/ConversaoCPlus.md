@@ -4,6 +4,24 @@
     - Tipo: Postgres SQL  
     - Versão: Utilizar a mais recente  
 
+### Abas implementadas
+
+#### Legenda
+
+| Ícone | Status                   |
+| :-----: | ------------------------ |
+| ✅    | Implementado: Completo   |
+| ⚠️    | Implementado: Incompleto |
+| ❌    | Não implementado         |
+  
+#### Implementação
+
+| Cadastro | Pessoas | Produtos | Contas | Movimentos | Objetos |
+|:--------:|:-------:|:--------:|:------:|:----------:|:-------:|
+|    ❌    |   ✅    |    ✅    |   ✅   |     ❌     |   ❌    |
+
+Caso necessário abrir chamada para implementação de alguma entidade
+
 ## Configurações específicas  
 ### Precificação  
 ![CPlusPrecificacao.png](./Imagens/CPlusPrecificacao.png)  

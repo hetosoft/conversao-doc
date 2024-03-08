@@ -3,6 +3,24 @@
 - **Banco**  
     - Tipo: SQL Server  
     - Versão Especifica: N/A  
+
+### Abas implementadas
+
+#### Legenda
+
+| Ícone | Status                   |
+| :-----: | ------------------------ |
+| ✅    | Implementado: Completo   |
+| ⚠️    | Implementado: Incompleto |
+| ❌    | Não implementado         |
+  
+#### Implementação
+
+| Cadastro | Pessoas | Produtos | Contas | Movimentos | Objetos |
+|:--------:|:-------:|:--------:|:------:|:----------:|:-------:|
+|    ✅    |   ✅    |    ✅    |   ✅   |     ✅     |   ❌    | 	
+
+Caso necessário abrir chamada para implementação de alguma entidade
   
 ## Configurações iniciais  
 ### Bancos de dados  
