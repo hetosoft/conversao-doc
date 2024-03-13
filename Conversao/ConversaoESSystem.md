@@ -42,22 +42,22 @@ Ou então siga o processo de criação de base de dados do SQL Server Management
 
 #### Passo 2: Conectar-se ao banco de dados SQL Server criado na aba de `Conversão`[^1]  
 
-![[Pasted image 20240313152901.png]]
+![ConectarSQLServer.png](Imagens/ConectarSQLServer.png)
 
 [^1]: Ver [Conectarbancos](Conectarbancos.md)
 
 #### Passo 3: Aponte as pastas com arquivos .DBF no formulário
 
-![ESSystemApontar1.png](ESSystemApontar1.png)
+![ESSystemApontar1.png](Imagens/ESSystemApontar1.png)
 
-![ESSystemApontarPastas2.png](ESSystemApontarPastas2.png)
+![ESSystemApontarPastas2.png](Imagens/ESSystemApontarPastas2.png)
 
 >[!TIP] 
 >Caso a conversão não inclua contas e movimentos é indicado descartar os arquivos PVEND001.DBF, CT_RC001.DBF, DDPV001.DBF, DDCR001.DBF, SATPRO.DBF, CREVENTO.DBF, SAT.DBF e SATMSG.DBF antes de prosseguir. Essas tabelas são bastante pesadas e podem diminuir significativamente a velocidade de importação
 
 #### Passo 4: Verificar o caminho do executável do DBF Viewer
 
-![apontarExecutavelDBFViwer.png](apontarExecutavelDBFViwer.png)
+![apontarExecutavelDBFViwer.png](Imagens/apontarExecutavelDBFViwer.png)
 
 Aponte o caminho do executável `dbfview.exe` que pode ser encontrado na pasta de instalação do DBFViewer 2000
 
