@@ -17,8 +17,8 @@
 #### Implementação
 
 | Cadastro | Pessoas | Produtos | Contas | Movimentos | Objetos |
-|:--------:|:-------:|:--------:|:------:|:----------:|:-------:|
-|    ❌    |   ⚠️[^1]    |    ✅    |   ✅   |     ❌     |   ❌    |
+| :------: | :-----: | :------: | :----: | :--------: | :-----: |
+|    ❌     | ⚠️[^1]  |    ✅     |   ✅    |     ❌      |    ❌    |
 
 [^1]: O banco do cliente possuía poucas informações e foi impossível determinar o tipo de pessoa, atualmente todas as pessoas estão sendo cadastradas como clientes, no aguardo de uma conversão com mais informações para polir a conversão de pessoas
 
