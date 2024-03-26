@@ -33,10 +33,12 @@ Foi identificado que o sistema Derevo possui versões diferentes de banco de dad
 - Bando de dados: Firebird 2.5
 - Nome usual do banco: SAD_GESTOR-xxxxxxxx.FDB
 - Não possui a tabela `SM_CD_EF_NCM_TRIBUTACAO_F` 
+
 #### Padrão 2
 - Banco de dados: Firebird 2.5
 - Nome usual do banco: SAD_GESTOR-xxxxxxxx.FDB
 - Possui a tabela `SM_CD_EF_NCM_TRIBUTACAO_F`
+
 #### Padrão 3
 - Banco de dados: Firebird 3.0
 - Nome usual do banco: DEREVO_GESTOR
