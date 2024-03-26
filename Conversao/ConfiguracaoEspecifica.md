@@ -1,4 +1,4 @@
-Voltar: [README](Conversao/README.md)
+Voltar: [Home](https://hetosoft.github.io/conversao-doc/Conversao/)
 # Configuração específica  
 Em alguns formulários de conversão são necessárias configurações específicas. Para isso existe a aba `Configuração Especifica`. Ao contrário da aba de [Configuração Geral](ConfiguracaoGeral.md) e das configurações de cada aba, a aba de `Configuração Especifica` varia de formulário para formulário. Veja nas páginas de cada formulário a documentação das configurações especificas:  
 - [Conversão Alfa Software](ConversaoAlfaSoftware.md)  

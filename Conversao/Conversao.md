@@ -1,4 +1,4 @@
-Voltar: [README](Conversao/README.md)
+Voltar: [Home](https://hetosoft.github.io/conversao-doc/Conversao/)
 # Conversão  
 - O aplicativo de conversões possui abas que representam um determinado conjunto de entidades com botões que inicializam a conversão de uma determinada entidade. Alguns desses botões dependem da [Configuração Geral](ConfiguracaoGeral.md) e/ou de configurações que serão explicadas nas paginas de cada aba  
 
