@@ -1,3 +1,4 @@
+Voltar: [README](Conversao/README.md)
 # Configuração específica  
 Em alguns formulários de conversão são necessárias configurações específicas. Para isso existe a aba `Configuração Especifica`. Ao contrário da aba de [Configuração Geral](ConfiguracaoGeral.md) e das configurações de cada aba, a aba de `Configuração Especifica` varia de formulário para formulário. Veja nas páginas de cada formulário a documentação das configurações especificas:  
 - [Conversão Alfa Software](ConversaoAlfaSoftware.md)  
@@ -19,3 +20,4 @@ Em alguns formulários de conversão são necessárias configurações específi
 - [Conversão XPert](ConversaoXPert.md)
 - [Conversão Ville](ConversaoVille.md)
 - [Troca CNPJ](TrocaCnpj.md)
+- [Conversão SysPDV](ConversaoSysPDV.md)

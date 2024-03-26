@@ -1,3 +1,4 @@
+Voltar: [Conversão Especifica](ConfiguracaoEspecifica.md)
 # Conversão Gestão Fácil  
 ## Informações  
 - **Banco**  

@@ -1,3 +1,4 @@
+Voltar: [Conversao](Conversao.md)
 # Contas  
 Converte as entidades relacionadas a Contas Pagar/Contas Receber (`CONTAS_PR`). Na aba de conversão de contas algumas configurações são obrigatórias. Além das configurações da aba `Financeiro` a [Configuração De Data](ConfiguracaoDeData.md) é necessária assim como algumas [configurações do SOL.NET](Contas.md#Configurações%20Obrigatórias%20-%20SOL.NET). Além disso a conversão de contas possui dependência da conversão de [Pessoas](./Pessoas.md)  
 ![TabContas.png](./Imagens/TabContas.png)  

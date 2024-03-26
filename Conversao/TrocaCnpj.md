@@ -1,3 +1,4 @@
+Voltar: [Conversão Especifica](ConfiguracaoEspecifica.md)
 ## Informações
 - Banco: Bancos SOL.NET
 

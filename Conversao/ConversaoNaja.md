@@ -1,3 +1,4 @@
+Voltar: [Conversão Especifica](ConfiguracaoEspecifica.md)
 # Conversão Naja  
 ## Informações  
 **Banco**  

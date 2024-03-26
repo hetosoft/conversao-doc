@@ -1,3 +1,4 @@
+Voltar: [Conversão Especifica](ConfiguracaoEspecifica.md)
 # Conversão Easy Software  
 ## Informações  
 - **Banco**  

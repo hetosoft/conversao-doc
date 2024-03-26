@@ -1,3 +1,4 @@
+Voltar: [Configuração Geral](ConfiguracaoGeral.md)
 # Configuração de empresa  
 Antes de iniciar uma conversão é necessário informar o "De-Para" de empresas nos campos `Id(s) Empresa(s) Origem` e `Id(s) Empresa(s) Destino`.  
 

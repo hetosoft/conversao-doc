@@ -1,3 +1,4 @@
+Voltar: [Conversao](Conversao.md)
 # Objetos  
 Aba de conversão de entidades relacionadas a Objetos. Essa aba pode possuir duas formas:  
 1) Objetos Específicos:  

@@ -1,3 +1,4 @@
+Voltar: [Configuração Geral](ConfiguracaoGeral.md)
 # Configuração de data inicial e final  
 ![ConfiguracaoData.png](./Imagens/ConfiguracaoData.png)  
 

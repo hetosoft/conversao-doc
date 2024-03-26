@@ -1,3 +1,4 @@
+Voltar: [README](Conversao/README.md)
 # Configuração Geral  
 Aba de configuração geral do Conversão.  
 ![ConfigGeral.png](./Imagens/ConfigGeral.png)  

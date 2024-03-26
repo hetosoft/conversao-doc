@@ -1,3 +1,4 @@
+Voltar: [Conversão Especifica](ConfiguracaoEspecifica.md)
 # Conversão Planilhas  
 A Conversão de planilhas é bastante parecida com as conversões de banco de dados no que diz respeito a [configuração de conversão](Conversao.md), com a diferença de que a conexão de banco origem não está disponível na aba de [conexão](Conectarbancos.md). Além disso, os sistemas a ser convertidos são definidos através de um arquivo de configuração (Disponível no [mega](https://mega.nz/fm/d9x1QLTJ)). Os botões ficarão disponíveis de acordo com sistema selecionado.  
 

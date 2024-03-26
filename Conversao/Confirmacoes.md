@@ -1,3 +1,4 @@
+Voltar: [Configuração Geral](ConfiguracaoGeral.md)
 # Confirmações  
 Configuração de confirmações antes de conversões. As opções disponíveis são:  
 1) Todas:  

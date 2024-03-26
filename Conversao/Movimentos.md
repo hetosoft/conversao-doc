@@ -1,3 +1,4 @@
+Voltar: [Conversao](Conversao.md)
 # Movimentos  
 Aba de conversão de entidades relacionadas a Movimentos. É necessário realizar [ConfiguracaoDeData](ConfiguracaoDeData.md) para determinar qual intervalo deve ser considerado ao converter movimentos, além disso é necessário configurar cada botão para um tipo de movimento antes de iniciar a conversão  
 
