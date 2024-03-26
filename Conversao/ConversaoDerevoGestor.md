@@ -45,6 +45,7 @@ Foi identificado que o sistema Derevo possui versões diferentes de banco de dad
 - Não possui a tabela `SM_CD_EF_NCM_TRIBUTACAO_F` 
 
 ### Configurações
+
 #### Configurações de Fornecedor
 - Padrões: `Pardrão 1` e `Padrão 3`
 
