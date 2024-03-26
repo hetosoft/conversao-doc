@@ -46,20 +46,21 @@ Foi identificado que o sistema Derevo possui versões diferentes de banco de dad
 
 ### Configurações
 
-#### Configurações de Fornecedor
+#### Configurações de Produtos
+
+##### Definir Empresa produtos
 - Padrões: `Pardrão 1` e `Padrão 3`
 
-##### Buscar fornecedor da empresa
+![DerevoDefinirEmpresaProdutos.png](Imagens/DerevoDefinirEmpresaProdutos.png)
 
-![DerevoConfigFornecedor1.png](Imagens/DerevoConfigFornecedor1.png)
-
-Insira os ids de empresa, em ordem de preferencia, em que devem ser buscados os fornecedores dos produto. O fornecedor será buscado primeiramente da primeira empresa (no caso 3) depois da segunda e assim sucessivamente.
+Define qual empresa (origem) deve ser selecionada para buscar os detalhes do produto  
 
 ##### Buscar Fornecedores de outras empresas
+- Padrões: `Pardrão 1` e `Padrão 3`
 
-![DerevoConfigFornecedor2.png](Imagens/DerevoConfigFornecedor2.png)
+![DerevoBuscarFornecedoresOutrasEmpresas.png](Imagens/DerevoBuscarFornecedoresOutrasEmpresas.png)
 
-Marque essa opção caso deseje que, se nenhum fornecedor for encontrado entre as empresas selecionadas, o primeiro fornecedor encontrado para aquele produto seja selecionado. Esse processo deixa a conversão mais lenta
+Marque essa opção caso deseje que, se nenhum fornecedor for encontrado na empresa selecionada, o primeiro fornecedor encontrado para aquele produto seja selecionado. Esse processo deixa a conversão mais lenta
 
 ### Verifique as tabelas de botões 
 - Legenda:
