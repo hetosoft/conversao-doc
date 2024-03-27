@@ -1,9 +1,9 @@
 Voltar: [Conversão Especifica](ConfiguracaoEspecifica.md)
-# Conversão SysPDV
+# Conversão Syndata
 ## Informações
 - **Banco**:
-	- Tipo: Firebird
-	- Versão específica: 2.5
+	- Tipo: Firebird 
+	- Versão específica: 3.0
 
 ### Abas implementadas
 
@@ -19,10 +19,10 @@ Voltar: [Conversão Especifica](ConfiguracaoEspecifica.md)
 
 | Cadastro | Pessoas | Produtos | Contas | Movimentos | Objetos |
 |:--------:|:-------:|:--------:|:------:|:----------:|:-------:|
-|    ✅     |    ✅    |    ✅     |   ✅    |     ✅      |    ❌    |
+|    ❌     |    ✅    |    ✅     |   ❌    |     ❌      |    ❌    |
 
 Caso necessário abrir chamada para implementação de alguma entidade
 
 ## Configuração específica
-Sem configuração específica
 
+Sem configuração específica
