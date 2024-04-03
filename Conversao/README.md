@@ -35,3 +35,5 @@
     - [Troca CNPJ](TrocaCnpj.md)
     - [Conversão SysPDV](ConversaoSysPDV.md)
     - [Conversão SynData](ConversaoSyndata.md)
+- [Utilitários Backup](UtilitariosBackup.md)
+	- [Backup DBase](BackUpDabase.md)
