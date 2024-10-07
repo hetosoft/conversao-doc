@@ -25,6 +25,6 @@ Voltar: [Conversão Especifica](ConfiguracaoEspecifica.md)
 ## Configuração específica  
 
 ### Configuração de Produtos ID Empresa:  
-![NavcomEspecifico.png](./Imagens/.png)
+![NavcomEspecifico.png](./Imagens/NavComEspecifico.png)
 
 Na tabela de produtos de origem existem mais de um ID empresa para os produtos. Determine através da configuração especifica, o ID de qual empresa irá converter os produtos
