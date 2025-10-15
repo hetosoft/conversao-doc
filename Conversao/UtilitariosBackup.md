@@ -3,5 +3,5 @@ Algumas conversões podem apresentar dificuldade ao restaurar os bancos de dados
 - [Configurações DBase](BackUpDbase.md)
 
   SQL AnyWhere.
-  - [Configurações DBase](Anywhere.md)
+  - [Configurações Anywhere](Anywhere.md)
   
