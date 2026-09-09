@@ -5,7 +5,7 @@ Voltar: [Conversão Especifica](ConfiguracaoEspecifica.md)
     - Tipo: Protheus (tabelas padrão, ex.: `SB1010` Produtos, `SAH010` Unidades, `SBM010` Grupos, `SYD010` NCM)
     - Versão Especifica: N/A
 
-> ⚠️ **Conversão em evolução.** O formulário do Protheus foi reescrito no padrão atual de conversão e, neste momento, entrega **apenas o fluxo de Produtos**. As demais entidades (Pessoas, Contas, Movimentos) ainda **não** estão implementadas — há chamado aberto para a conversão de Pessoas (Clientes, Fornecedor, Funcionário). O tratamento de base de origem **DataFlex** já está disponível — ver [Configuração DataFlex](BackUpDataFlex.md). Considere implementado somente o que está marcado abaixo.
+> ⚠️ **Conversão em evolução.** O formulário do Protheus foi reescrito no padrão atual de conversão e entrega os fluxos de **Produtos** e **Pessoas**. Em Pessoas faltam os **Funcionários**; Contas e Movimentos ainda **não** estão implementados. O tratamento de base de origem **DataFlex** já está disponível — ver [Configuração DataFlex](BackUpDataFlex.md). Considere implementado somente o que está marcado abaixo.
 
 ### Abas implementadas
 
@@ -21,9 +21,11 @@ Voltar: [Conversão Especifica](ConfiguracaoEspecifica.md)
 
 | Cadastro | Pessoas | Produtos | Contas | Movimentos | Objetos |
 |:--------:|:-------:|:--------:|:------:|:----------:|:-------:|
-|    ✅    |   ❌    |    ✅    |   ❌   |     ❌     |   ❌    |
+|    ✅    |   ⚠️    |    ✅    |   ❌   |     ❌     |   ❌    |
 
-Entidades cobertas na aba **Produtos**: Unidades, Famílias, NCM, Produtos, Produtos Códigos.
+Entidades cobertas na aba **Produtos**: Unidades, Famílias, NCM, Produtos, Produtos Códigos, Estoque.
+
+Entidades cobertas na aba **Pessoas**: Clientes, Fornecedores. **Funcionários** ainda não têm botão — é o que deixa a aba marcada como incompleta.
 
 Caso necessário abrir chamada para implementação de alguma entidade
 
