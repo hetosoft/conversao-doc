@@ -11,29 +11,23 @@ Diferente do [Backup Access](BackUpAccess.md), aqui **não existem usuário e se
 
 ### Convertendo DataFlex para SQL Server
 
-#### Passo 1: Selecione o pacote de conversão `.zip` no formulário
+#### Passo 1: Preencha os campos
 
-No campo **Caminho do Script de Conversão**, aponte o arquivo `.zip` baixado anteriormente. Não é preciso extraí-lo — o próprio app cuida disso.
+**Caminho do Script de Conversão** — aponte o arquivo `.zip` baixado anteriormente, onde quer que você o tenha salvo. Não é preciso extraí-lo: o próprio app cuida disso.
 
-![DataFlexApontarZip.png](Imagens/DataFlexApontarZip.png)
+**Caminho da Pasta DataFlex** — aponte a pasta do sistema antigo. Escolha a pasta que **contém** as subpastas `Data` e `DDSrc`, e não uma delas. A `Data` guarda os dados e a `DDSrc` os nomes dos campos; as duas são necessárias.
 
-#### Passo 2: Aponte a pasta do DataFlex
+**Caminho do SQL Server** — no formato `ip,porta` (ex.: `192.168.0.10,1433`). Uma instância nomeada também é aceita (ex.: `SERVIDOR\SQLEXPRESS`).
 
-No campo **Caminho da Pasta DataFlex**, aponte a pasta do sistema antigo. Escolha a pasta que **contém** as subpastas `Data` e `DDSrc` — e não uma delas. A `Data` guarda os dados e a `DDSrc` os nomes dos campos; as duas são necessárias.
+**Usuário** e **Senha** — do SQL Server. Se **deixar os dois em branco**, a conexão usa o login do Windows da própria máquina.
 
-![DataFlexApontarPasta.png](Imagens/DataFlexApontarPasta.png)
+**Nome do Banco** — o nome da base de destino. Se ela não existir, é criada automaticamente; se existir, os dados são regravados nela.
 
-#### Passo 3: Configure o SQL Server de destino
+> **Prefira um banco novo a cada conversão.** Reaproveitar o banco de uma conversão anterior pode deixar para trás tabelas que não existem mais na origem.
 
-Preencha o campo **Caminho do SQL Server** no formato `ip,porta` (ex.: `192.168.0.10,1433`), junto dos respectivos **Usuário** e **Senha**. Se **deixar usuário e senha em branco**, a conexão usa o login do Windows da própria máquina.
+![DataFlexPreenchido.png](Imagens/DataFlexPreenchido.png)
 
-Em **Nome do Banco**, informe o nome da base de destino. Se ela não existir, é criada automaticamente; se existir, os dados são regravados nela.
-
-> **Prefira um banco novo a cada conversão.** Reaproveitar um banco de uma conversão anterior pode deixar para trás tabelas que não existem mais na origem.
-
-![DataFlexApontarSqlServer.png](Imagens/DataFlexApontarSqlServer.png)
-
-#### Passo 4: Converta para o SQL Server
+#### Passo 2: Converta para o SQL Server
 
 Clique no botão `Converter p/ SQL Server`.
 
@@ -43,9 +37,7 @@ O tempo depende do tamanho da base — em uma base de mercado com cerca de 95 mi
 
 Se clicar no botão de novo enquanto a conversão está rodando, o app avisa que já existe uma em andamento e não inicia outra. **Espere terminar**: duas conversões ao mesmo tempo atrapalham uma à outra.
 
-![DataFlexConverter.png](Imagens/DataFlexConverter.png)
-
-#### Passo 5: Conecte o banco convertido como origem
+#### Passo 3: Conecte o banco convertido como origem
 
 Quando a janela avisar que terminou, clique em `Conectar como Origem`. O app conecta o banco recém-criado e preenche sozinho os campos de origem da aba `Conversão`.
 
