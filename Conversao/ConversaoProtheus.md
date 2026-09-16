@@ -5,7 +5,7 @@ Voltar: [Conversão Especifica](ConfiguracaoEspecifica.md)
     - Tipo: Protheus (tabelas padrão, ex.: `SB1010` Produtos, `SAH010` Unidades, `SBM010` Grupos, `SYD010` NCM)
     - Versão Especifica: N/A
 
-> ⚠️ **Conversão em evolução.** O formulário do Protheus foi reescrito no padrão atual de conversão e, neste momento, entrega **apenas o fluxo de Produtos**. As demais entidades (Pessoas, Contas, Movimentos) ainda **não** estão implementadas — há chamado aberto para a conversão de Pessoas (Clientes, Fornecedor, Funcionário) e para o tratamento de base de origem **DataFlex**. Considere implementado somente o que está marcado abaixo.
+> ⚠️ **Conversão em evolução.** O formulário do Protheus foi reescrito no padrão atual de conversão e entrega os fluxos de **Produtos** e **Pessoas**. Em Pessoas faltam os **Funcionários**; Contas e Movimentos ainda **não** estão implementados. O tratamento de base de origem **DataFlex** já está disponível — ver [Configuração DataFlex](BackUpDataFlex.md). Considere implementado somente o que está marcado abaixo.
 
 ### Abas implementadas
 
@@ -21,9 +21,11 @@ Voltar: [Conversão Especifica](ConfiguracaoEspecifica.md)
 
 | Cadastro | Pessoas | Produtos | Contas | Movimentos | Objetos |
 |:--------:|:-------:|:--------:|:------:|:----------:|:-------:|
-|    ✅    |   ❌    |    ✅    |   ❌   |     ❌     |   ❌    |
+|    ✅    |   ⚠️    |    ✅    |   ❌   |     ❌     |   ❌    |
 
-Entidades cobertas na aba **Produtos**: Unidades, Famílias, NCM, Produtos, Produtos Códigos.
+Entidades cobertas na aba **Produtos**: Unidades, Famílias, NCM, Produtos, Produtos Códigos, Estoque.
+
+Entidades cobertas na aba **Pessoas**: Clientes, Fornecedores. **Funcionários** ainda não têm botão — é o que deixa a aba marcada como incompleta.
 
 Caso necessário abrir chamada para implementação de alguma entidade
 
@@ -31,7 +33,7 @@ Caso necessário abrir chamada para implementação de alguma entidade
 ### Bancos de dados
 Além de [conectar os bancos](Conectarbancos.md) origem e destino, a conversão lê as tabelas padrão do Protheus (prefixos `SB`, `SA`, `SY`…). Registros excluídos no Protheus são marcados no campo `D_E_L_E_T_` (`*` = excluído) e são ignorados pela conversão.
 
-> Bases de origem em **DataFlex** dependem de uma etapa de transformação para SQL antes da conversão — recurso em desenvolvimento. Confirme com a equipe de conversão o formato da base de origem do cliente antes de iniciar.
+> Bases de origem em **DataFlex** dependem de uma etapa de transformação para SQL antes da conversão. O processo está na aba [Utilitários Backup](UtilitariosBackup.md), na sessão [Configuração DataFlex](BackUpDataFlex.md): a base DataFlex é copiada para um SQL Server, e é esse SQL Server que a conversão usa como origem. Confirme o formato da base de origem do cliente antes de iniciar.
 
 ## Configuração específica
 

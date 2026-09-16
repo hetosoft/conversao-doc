@@ -65,4 +65,5 @@
 - [Utilitários Backup](UtilitariosBackup.md)
 	- [Backup DBase](BackUpDbase.md)
 	- [Backup Access](BackUpAccess.md)
+	- [Backup DataFlex](BackUpDataFlex.md)
     - [AnyWhere](Sqlanywhere.md)
