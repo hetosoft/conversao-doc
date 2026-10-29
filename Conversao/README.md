@@ -1,5 +1,6 @@
 # Conteúdos  
 - [Conectar bancos](Conectarbancos.md)  
+    - [Instalar o cliente Oracle](Oracle.md)
 - [Configuração Geral](ConfiguracaoGeral.md)  
     - [Configuração de Empresa](ConfiguracaoDeEmpresa.md)  
     - [Configuração de Data](ConfiguracaoDeData.md)  
